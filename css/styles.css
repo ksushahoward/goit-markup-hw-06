@@ -488,7 +488,6 @@ button {
 .footer > .container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 .adress-soc-box {
@@ -603,9 +602,12 @@ button {
   background-color: var(--accent-color);
 }
 
-.footer-form {
+.input-box {
   display: flex;
-  align-items: flex-end;
+}
+
+.footer-form {
+  margin-left: auto;
 }
 
 .footer-form-text {
@@ -1026,7 +1028,7 @@ button {
 }
 
 .modal_btn {
-  padding: 10px 32px;
+  padding: 10px 55px;
   margin-top: 30px;
 
   font-family: 'Roboto', sans-serif;
